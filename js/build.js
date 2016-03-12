@@ -14,7 +14,7 @@ matrizDesorganiza = [];
 
 var dataGlobal = {};
 
-var valorCorte = 150; //El valor del corte que se hará...
+var valorCorte = 100; //El valor del corte que se hará...
 _utils2.default.creaPuzzle(urlImg, valorCorte, function (_ref) {
     var _ref$error = _ref.error;
     var error = _ref$error === undefined ? false : _ref$error;

@@ -6,7 +6,7 @@ let urlImg            = "img/image01.jpg",
 
 var dataGlobal ={};
 
-const valorCorte = 150;//El valor del corte que se hará...
+const valorCorte = 100;//El valor del corte que se hará...
 utils.creaPuzzle(urlImg, valorCorte, ({error = false, data}) =>
 {
     if(!error)

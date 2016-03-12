@@ -1,0 +1,60 @@
+
+@keyframes myAnimation {
+    0%   {right:10%; }
+    25%  {right:20%; }
+    50%  {right:30%;}
+    75%  {right:20%; }
+    100% {right:0%; }
+}
+
+@keyframes myAnimationBad {
+    0%   {left:10%; }
+    25%  {left:20%; }
+    50%  {left:30%;}
+    75%  {left:20%; }
+    100% {left:0%; }
+}
+
+#titulo
+{
+    font-family: Arial;
+}
+
+#puzzle
+{
+    margin: 0 auto;
+    background: rgba(14, 14, 14, 0.68);
+    border: 3px solid white;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.9);
+}
+
+.niveles
+{
+    height: auto;
+    margin: 0 auto;
+}
+
+#botones
+{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#Mensajes {
+	font-family: Arial;
+	color: green;
+    font-size: 20px;
+}
+
+
+.efecto {
+	position: relative;
+	animation-name: myAnimation;
+    animation-duration: 1s;
+}
+
+.efectoMal {
+	position: relative;
+	animation-name: myAnimationBad;
+    animation-duration: 1s;
+}
